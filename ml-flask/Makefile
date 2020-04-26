@@ -1,7 +1,7 @@
 
 
 install:
-	- virtualenv -p python3 ../flask-infravideos/build
+	- virtualenv -p python3 ../ml-flask/build
 	- ( \
        . build/bin/activate; \
         pip3 install -r requirements.txt; \
@@ -12,5 +12,8 @@ run:
 	   FLASK_APP=app.py flask run\
     )
 
-test:
-        
+@test:
+	- ( \
+       . build/bin/activate; \
+	   pytest sre/test/features/unit/test_dataset.py\
+    )
