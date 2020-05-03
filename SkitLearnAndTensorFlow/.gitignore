@@ -4,3 +4,7 @@ etc/
 include/
 lib/
 share/
+tmp/
+logs/
+share/
+datasets/
