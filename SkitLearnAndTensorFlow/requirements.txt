@@ -4,7 +4,7 @@ numpy
 pandas
 scipy
 sklearn 
-tensorflow==1.15.2
+tensorflow==1.15.4
 grpcio>=1.24.3
 nbinteract
 seaborn
