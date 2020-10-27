@@ -1,0 +1,10 @@
+jupyter
+matplotlib
+numpy
+pandas
+scipy
+sklearn
+tensorflow==2.3.0
+torch
+torchvision
+h5py
